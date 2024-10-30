@@ -1,0 +1,73 @@
+/* click-counter.css */
+.click-counter-settings {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+.click-counter-settings h1, .click-counter-settings h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.click-counter-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.click-counter-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.click-counter-list li:hover {
+    background-color: #f0f0f0;
+}
+.element-name {
+    font-weight: bold;
+    color: #007cba;
+    flex: 1;
+    max-width: 20%;
+}
+.click-count {
+    margin-left: 10px;
+    color: #555;
+}
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+.delete-button {
+    background-color: #007cba;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+.delete-button:hover {
+    background-color: #005a8c;
+}
+.add-element-form {
+    display: flex;
+    margin: 20px 0;
+    gap: 10px;
+}
+.add-element-form input[type="text"],
+.add-element-form select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.add-element-form input[type="submit"] {
+    flex: 0;
+}
